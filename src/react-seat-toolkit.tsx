@@ -1,21 +1,62 @@
-import SeatToolkit from "@mezh-hq/react-seat-toolkit";
+import SeatToolkit, { store, actions }  from "@mezh-hq/react-seat-toolkit";
 import "@mezh-hq/react-seat-toolkit/styles";
-import seats from "./seats.json";
+import seats_array from "./seats.json";
 import texts from "./texts.json";
 import { Armchair } from "lucide-react";
+import { IPopulatedSeat,ISeat } from "@mezh-hq/react-seat-toolkit/types";
+import { useState } from "react";
 
 const ReactToolKitSeat = () => {
+    const [seats, setSeats] = useState<ISeat[]>(seats_array as ISeat[]);
 
+    const onSeatClick = (clickedSeat: IPopulatedSeat) => {
+        // Update the seat’s status to "Reserved"
+        setSeats((prevSeats) =>
+          prevSeats.map((seat) =>
+            seat.id === clickedSeat.id
+              ? { ...seat, status: 'Reserved' }
+              : seat
+          )
+        );
+        console.log(seats)
+      };
     return (
         <div style={{ width: "1000px", height: "1000px" }}>
             <SeatToolkit
-                mode={"designer"}
+                mode={"user"}
                 data={{
                     name: "Categorized Example",
                     categories: [
-                        { id: "b26fffc7-1e54-43b8-8e29-5077541ee637", name: "Standard", color: "#000000", textColor: "#f7f7f7" },
-                        { id: "6267c38d-e1ee-433a-9bda-8be0cab0b062", name: "Premium", color: "#ff0000", textColor: "#f7f7f7" },
-                        { id: "fe1a1eb0-1f30-4014-ae49-ee8438b720a3", name: "VIP", color: "#e5e5ff", textColor: "#000000" }
+                        {
+                            id: 'zone1',
+                            name: 'Zone 1',
+                            color: '#B60208',
+                            textColor: '#fff',
+                          },
+                          {
+                            id: 'zone2',
+                            name: 'Zone 2',
+                            color: '#F99446',
+                            textColor: '#fff',
+                          },
+                          {
+                            id: 'zone3',
+                            name: 'Zone 3',
+                            color: '#EADD1C',
+                            textColor: '#fff',
+                          },
+                          {
+                            id: 'zone4',
+                            name: 'Zone 4',
+                            color: '#1EB0EF',
+                            textColor: '#fff',
+                          },
+                          {
+                            id: 'zone5',
+                            name: 'Zone 5',
+                            color: '#0FAD4F',
+                            textColor: '#fff',
+                          },
                     ],
                     sections: [
                         {
@@ -40,7 +81,7 @@ const ReactToolKitSeat = () => {
                             freeSeating: false
                         }
                     ],
-                    seats: seats ,
+                    seats: seats_array ,
                     text: texts,
                     shapes: [
                         {
@@ -68,6 +109,9 @@ const ReactToolKitSeat = () => {
                         overrideDefaultIconset: true
                     }
                 }}
+                events={{
+                    onSeatClick: onSeatClick,
+                  }}
             />
         </div>);
 };
