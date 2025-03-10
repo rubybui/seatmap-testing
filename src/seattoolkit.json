@@ -1,0 +1,3745 @@
+{
+    "name": "NhaHatQuanDoi",
+    "categories": [
+        {
+            "id": "b26fffc7-1e54-43b8-8e29-5077541ee637",
+            "name": "Standard",
+            "color": "#000000",
+            "textColor": "#f7f7f7"
+        },
+        {
+            "id": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "name": "Premium",
+            "color": "#ff0000",
+            "textColor": "#f7f7f7"
+        },
+        {
+            "id": "fe1a1eb0-1f30-4014-ae49-ee8438b720a3",
+            "name": "VIP",
+            "color": "#e5e5ff",
+            "textColor": "#000000"
+        }
+    ],
+    "sections": [
+        {
+            "id": "1636dd75-ea0a-48d6-b14c-05ac9db08f5c",
+            "name": "Section 1",
+            "color": "#000000",
+            "stroke": "#000000",
+            "freeSeating": false
+        },
+        {
+            "id": "65dfc91f-f7aa-407a-ae55-b31f1ee3a41c",
+            "name": "Section 2",
+            "color": "#FF0000",
+            "stroke": "#FF0000",
+            "freeSeating": false
+        },
+        {
+            "id": "6975d973-5a37-4490-bf13-85c156cbb6b3",
+            "name": "Section 3",
+            "color": "#0000FF",
+            "stroke": "#0000FF",
+            "freeSeating": false
+        }
+    ],
+    "seats": [
+        {
+            "id": "seat-1",
+            "x": 480,
+            "y": 200,
+            "label": "A1",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-2",
+            "x": 440,
+            "y": 200,
+            "label": "A3",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-3",
+            "x": 400,
+            "y": 200,
+            "label": "A5",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-4",
+            "x": 360,
+            "y": 200,
+            "label": "A7",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-5",
+            "x": 320,
+            "y": 200,
+            "label": "A9",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-6",
+            "x": 280,
+            "y": 200,
+            "label": "A11",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-7",
+            "x": 240,
+            "y": 200,
+            "label": "A13",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-8",
+            "x": 200,
+            "y": 200,
+            "label": "A15",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-9",
+            "x": 160,
+            "y": 200,
+            "label": "A17",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-10",
+            "x": 120,
+            "y": 200,
+            "label": "A19",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-11",
+            "x": 80,
+            "y": 200,
+            "label": "A21",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-12",
+            "x": 40,
+            "y": 200,
+            "label": "A23",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-13",
+            "x": 570,
+            "y": 200,
+            "label": "A2",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-14",
+            "x": 610,
+            "y": 200,
+            "label": "A4",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-15",
+            "x": 650,
+            "y": 200,
+            "label": "A6",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-16",
+            "x": 690,
+            "y": 200,
+            "label": "A8",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-17",
+            "x": 730,
+            "y": 200,
+            "label": "A10",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-18",
+            "x": 770,
+            "y": 200,
+            "label": "A12",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-19",
+            "x": 810,
+            "y": 200,
+            "label": "A14",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-20",
+            "x": 850,
+            "y": 200,
+            "label": "A16",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-21",
+            "x": 890,
+            "y": 200,
+            "label": "A18",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-22",
+            "x": 930,
+            "y": 200,
+            "label": "A20",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-23",
+            "x": 970,
+            "y": 200,
+            "label": "A22",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-24",
+            "x": 480,
+            "y": 240,
+            "label": "B1",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-25",
+            "x": 440,
+            "y": 240,
+            "label": "B3",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-26",
+            "x": 400,
+            "y": 240,
+            "label": "B5",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-27",
+            "x": 360,
+            "y": 240,
+            "label": "B7",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-28",
+            "x": 320,
+            "y": 240,
+            "label": "B9",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-29",
+            "x": 280,
+            "y": 240,
+            "label": "B11",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-30",
+            "x": 240,
+            "y": 240,
+            "label": "B13",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-31",
+            "x": 200,
+            "y": 240,
+            "label": "B15",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-32",
+            "x": 160,
+            "y": 240,
+            "label": "B17",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-33",
+            "x": 120,
+            "y": 240,
+            "label": "B19",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-34",
+            "x": 80,
+            "y": 240,
+            "label": "B21",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-35",
+            "x": 40,
+            "y": 240,
+            "label": "B23",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-36",
+            "x": 570,
+            "y": 240,
+            "label": "B2",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-37",
+            "x": 610,
+            "y": 240,
+            "label": "B4",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-38",
+            "x": 650,
+            "y": 240,
+            "label": "B6",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-39",
+            "x": 690,
+            "y": 240,
+            "label": "B8",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-40",
+            "x": 730,
+            "y": 240,
+            "label": "B10",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-41",
+            "x": 770,
+            "y": 240,
+            "label": "B12",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-42",
+            "x": 810,
+            "y": 240,
+            "label": "B14",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-43",
+            "x": 850,
+            "y": 240,
+            "label": "B16",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-44",
+            "x": 890,
+            "y": 240,
+            "label": "B18",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-45",
+            "x": 930,
+            "y": 240,
+            "label": "B20",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-46",
+            "x": 970,
+            "y": 240,
+            "label": "B22",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-47",
+            "x": 480,
+            "y": 280,
+            "label": "C1",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-48",
+            "x": 440,
+            "y": 280,
+            "label": "C3",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-49",
+            "x": 400,
+            "y": 280,
+            "label": "C5",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-50",
+            "x": 360,
+            "y": 280,
+            "label": "C7",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-51",
+            "x": 320,
+            "y": 280,
+            "label": "C9",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-52",
+            "x": 280,
+            "y": 280,
+            "label": "C11",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-53",
+            "x": 240,
+            "y": 280,
+            "label": "C13",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-54",
+            "x": 200,
+            "y": 280,
+            "label": "C15",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-55",
+            "x": 160,
+            "y": 280,
+            "label": "C17",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-56",
+            "x": 120,
+            "y": 280,
+            "label": "C19",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-57",
+            "x": 80,
+            "y": 280,
+            "label": "C21",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-58",
+            "x": 40,
+            "y": 280,
+            "label": "C23",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-59",
+            "x": 570,
+            "y": 280,
+            "label": "C2",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-60",
+            "x": 610,
+            "y": 280,
+            "label": "C4",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-61",
+            "x": 650,
+            "y": 280,
+            "label": "C6",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-62",
+            "x": 690,
+            "y": 280,
+            "label": "C8",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-63",
+            "x": 730,
+            "y": 280,
+            "label": "C10",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-64",
+            "x": 770,
+            "y": 280,
+            "label": "C12",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-65",
+            "x": 810,
+            "y": 280,
+            "label": "C14",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-66",
+            "x": 850,
+            "y": 280,
+            "label": "C16",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-67",
+            "x": 890,
+            "y": 280,
+            "label": "C18",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-68",
+            "x": 930,
+            "y": 280,
+            "label": "C20",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-69",
+            "x": 970,
+            "y": 280,
+            "label": "C22",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-70",
+            "x": 480,
+            "y": 320,
+            "label": "D1",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-71",
+            "x": 440,
+            "y": 320,
+            "label": "D3",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-72",
+            "x": 400,
+            "y": 320,
+            "label": "D5",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-73",
+            "x": 360,
+            "y": 320,
+            "label": "D7",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-74",
+            "x": 320,
+            "y": 320,
+            "label": "D9",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-75",
+            "x": 280,
+            "y": 320,
+            "label": "D11",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-76",
+            "x": 240,
+            "y": 320,
+            "label": "D13",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-77",
+            "x": 200,
+            "y": 320,
+            "label": "D15",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-78",
+            "x": 160,
+            "y": 320,
+            "label": "D17",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-79",
+            "x": 120,
+            "y": 320,
+            "label": "D19",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-80",
+            "x": 80,
+            "y": 320,
+            "label": "D21",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-81",
+            "x": 40,
+            "y": 320,
+            "label": "D23",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-82",
+            "x": 570,
+            "y": 320,
+            "label": "D2",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-83",
+            "x": 610,
+            "y": 320,
+            "label": "D4",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-84",
+            "x": 650,
+            "y": 320,
+            "label": "D6",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-85",
+            "x": 690,
+            "y": 320,
+            "label": "D8",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-86",
+            "x": 730,
+            "y": 320,
+            "label": "D10",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-87",
+            "x": 770,
+            "y": 320,
+            "label": "D12",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-88",
+            "x": 810,
+            "y": 320,
+            "label": "D14",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-89",
+            "x": 850,
+            "y": 320,
+            "label": "D16",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-90",
+            "x": 890,
+            "y": 320,
+            "label": "D18",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-91",
+            "x": 930,
+            "y": 320,
+            "label": "D20",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-92",
+            "x": 970,
+            "y": 320,
+            "label": "D22",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-93",
+            "x": 480,
+            "y": 360,
+            "label": "E1",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-94",
+            "x": 440,
+            "y": 360,
+            "label": "E3",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-95",
+            "x": 400,
+            "y": 360,
+            "label": "E5",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-96",
+            "x": 360,
+            "y": 360,
+            "label": "E7",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-97",
+            "x": 320,
+            "y": 360,
+            "label": "E9",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-98",
+            "x": 280,
+            "y": 360,
+            "label": "E11",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-99",
+            "x": 240,
+            "y": 360,
+            "label": "E13",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-100",
+            "x": 200,
+            "y": 360,
+            "label": "E15",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-101",
+            "x": 160,
+            "y": 360,
+            "label": "E17",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-102",
+            "x": 120,
+            "y": 360,
+            "label": "E19",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-103",
+            "x": 80,
+            "y": 360,
+            "label": "E21",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-104",
+            "x": 40,
+            "y": 360,
+            "label": "E23",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-105",
+            "x": 570,
+            "y": 360,
+            "label": "E2",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-106",
+            "x": 610,
+            "y": 360,
+            "label": "E4",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-107",
+            "x": 650,
+            "y": 360,
+            "label": "E6",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-108",
+            "x": 690,
+            "y": 360,
+            "label": "E8",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-109",
+            "x": 730,
+            "y": 360,
+            "label": "E10",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-110",
+            "x": 770,
+            "y": 360,
+            "label": "E12",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-111",
+            "x": 810,
+            "y": 360,
+            "label": "E14",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-112",
+            "x": 850,
+            "y": 360,
+            "label": "E16",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-113",
+            "x": 890,
+            "y": 360,
+            "label": "E18",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-114",
+            "x": 930,
+            "y": 360,
+            "label": "E20",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-115",
+            "x": 970,
+            "y": 360,
+            "label": "E22",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-116",
+            "x": 480,
+            "y": 400,
+            "label": "F1",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-117",
+            "x": 440,
+            "y": 400,
+            "label": "F3",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-118",
+            "x": 400,
+            "y": 400,
+            "label": "F5",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-119",
+            "x": 360,
+            "y": 400,
+            "label": "F7",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-120",
+            "x": 320,
+            "y": 400,
+            "label": "F9",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-121",
+            "x": 280,
+            "y": 400,
+            "label": "F11",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-122",
+            "x": 240,
+            "y": 400,
+            "label": "F13",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-123",
+            "x": 200,
+            "y": 400,
+            "label": "F15",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-124",
+            "x": 160,
+            "y": 400,
+            "label": "F17",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-125",
+            "x": 120,
+            "y": 400,
+            "label": "F19",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-126",
+            "x": 570,
+            "y": 400,
+            "label": "F2",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-127",
+            "x": 610,
+            "y": 400,
+            "label": "F4",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-128",
+            "x": 650,
+            "y": 400,
+            "label": "F6",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-129",
+            "x": 690,
+            "y": 400,
+            "label": "F8",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-130",
+            "x": 730,
+            "y": 400,
+            "label": "F10",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-131",
+            "x": 770,
+            "y": 400,
+            "label": "F12",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-132",
+            "x": 810,
+            "y": 400,
+            "label": "F14",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-133",
+            "x": 850,
+            "y": 400,
+            "label": "F16",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-134",
+            "x": 890,
+            "y": 400,
+            "label": "F18",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-135",
+            "x": 480,
+            "y": 440,
+            "label": "G1",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-136",
+            "x": 440,
+            "y": 440,
+            "label": "G3",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-137",
+            "x": 400,
+            "y": 440,
+            "label": "G5",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-138",
+            "x": 360,
+            "y": 440,
+            "label": "G7",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-139",
+            "x": 320,
+            "y": 440,
+            "label": "G9",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-140",
+            "x": 280,
+            "y": 440,
+            "label": "G11",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-141",
+            "x": 240,
+            "y": 440,
+            "label": "G13",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-142",
+            "x": 200,
+            "y": 440,
+            "label": "G15",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-143",
+            "x": 160,
+            "y": 440,
+            "label": "G17",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-144",
+            "x": 120,
+            "y": 440,
+            "label": "G19",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-145",
+            "x": 80,
+            "y": 440,
+            "label": "G21",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-146",
+            "x": 570,
+            "y": 440,
+            "label": "G2",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-147",
+            "x": 610,
+            "y": 440,
+            "label": "G4",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-148",
+            "x": 650,
+            "y": 440,
+            "label": "G6",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-149",
+            "x": 690,
+            "y": 440,
+            "label": "G8",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-150",
+            "x": 730,
+            "y": 440,
+            "label": "G10",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-151",
+            "x": 770,
+            "y": 440,
+            "label": "G12",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-152",
+            "x": 810,
+            "y": 440,
+            "label": "G14",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-153",
+            "x": 850,
+            "y": 440,
+            "label": "G16",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-154",
+            "x": 890,
+            "y": 440,
+            "label": "G18",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-155",
+            "x": 930,
+            "y": 440,
+            "label": "G20",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-156",
+            "x": 480,
+            "y": 480,
+            "label": "H1",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-157",
+            "x": 440,
+            "y": 480,
+            "label": "H3",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-158",
+            "x": 400,
+            "y": 480,
+            "label": "H5",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-159",
+            "x": 360,
+            "y": 480,
+            "label": "H7",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-160",
+            "x": 320,
+            "y": 480,
+            "label": "H9",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-161",
+            "x": 280,
+            "y": 480,
+            "label": "H11",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-162",
+            "x": 240,
+            "y": 480,
+            "label": "H13",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-163",
+            "x": 200,
+            "y": 480,
+            "label": "H15",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-164",
+            "x": 160,
+            "y": 480,
+            "label": "H17",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-165",
+            "x": 570,
+            "y": 480,
+            "label": "H2",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-166",
+            "x": 610,
+            "y": 480,
+            "label": "H4",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-167",
+            "x": 650,
+            "y": 480,
+            "label": "H6",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-168",
+            "x": 690,
+            "y": 480,
+            "label": "H8",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-169",
+            "x": 730,
+            "y": 480,
+            "label": "H10",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-170",
+            "x": 770,
+            "y": 480,
+            "label": "H12",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-171",
+            "x": 810,
+            "y": 480,
+            "label": "H14",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-172",
+            "x": 850,
+            "y": 480,
+            "label": "H16",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-173",
+            "x": 480,
+            "y": 520,
+            "label": "I1",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-174",
+            "x": 440,
+            "y": 520,
+            "label": "I3",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-175",
+            "x": 400,
+            "y": 520,
+            "label": "I5",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-176",
+            "x": 360,
+            "y": 520,
+            "label": "I7",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-177",
+            "x": 320,
+            "y": 520,
+            "label": "I9",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-178",
+            "x": 280,
+            "y": 520,
+            "label": "I11",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-179",
+            "x": 240,
+            "y": 520,
+            "label": "I13",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-180",
+            "x": 200,
+            "y": 520,
+            "label": "I15",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-181",
+            "x": 160,
+            "y": 520,
+            "label": "I17",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-182",
+            "x": 570,
+            "y": 520,
+            "label": "I2",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-183",
+            "x": 610,
+            "y": 520,
+            "label": "I4",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-184",
+            "x": 650,
+            "y": 520,
+            "label": "I6",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-185",
+            "x": 690,
+            "y": 520,
+            "label": "I8",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-186",
+            "x": 730,
+            "y": 520,
+            "label": "I10",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-187",
+            "x": 770,
+            "y": 520,
+            "label": "I12",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-188",
+            "x": 810,
+            "y": 520,
+            "label": "I14",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-189",
+            "x": 850,
+            "y": 520,
+            "label": "I16",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-190",
+            "x": 480,
+            "y": 560,
+            "label": "J1",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-191",
+            "x": 440,
+            "y": 560,
+            "label": "J3",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-192",
+            "x": 400,
+            "y": 560,
+            "label": "J5",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-193",
+            "x": 360,
+            "y": 560,
+            "label": "J7",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-194",
+            "x": 320,
+            "y": 560,
+            "label": "J9",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-195",
+            "x": 280,
+            "y": 560,
+            "label": "J11",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-196",
+            "x": 240,
+            "y": 560,
+            "label": "J13",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-197",
+            "x": 570,
+            "y": 560,
+            "label": "J2",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-198",
+            "x": 610,
+            "y": 560,
+            "label": "J4",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-199",
+            "x": 650,
+            "y": 560,
+            "label": "J6",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-200",
+            "x": 690,
+            "y": 560,
+            "label": "J8",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-201",
+            "x": 730,
+            "y": 560,
+            "label": "J10",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-202",
+            "x": 770,
+            "y": 560,
+            "label": "J12",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-203",
+            "x": 810,
+            "y": 560,
+            "label": "J14",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-204",
+            "x": 480,
+            "y": 600,
+            "label": "K1",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-205",
+            "x": 440,
+            "y": 600,
+            "label": "K3",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-206",
+            "x": 400,
+            "y": 600,
+            "label": "K5",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-207",
+            "x": 360,
+            "y": 600,
+            "label": "K7",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-208",
+            "x": 320,
+            "y": 600,
+            "label": "K9",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-209",
+            "x": 280,
+            "y": 600,
+            "label": "K11",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-210",
+            "x": 240,
+            "y": 600,
+            "label": "K13",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-211",
+            "x": 570,
+            "y": 600,
+            "label": "K2",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-212",
+            "x": 610,
+            "y": 600,
+            "label": "K4",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-213",
+            "x": 650,
+            "y": 600,
+            "label": "K6",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-214",
+            "x": 690,
+            "y": 600,
+            "label": "K8",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-215",
+            "x": 730,
+            "y": 600,
+            "label": "K10",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-216",
+            "x": 770,
+            "y": 600,
+            "label": "K12",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-217",
+            "x": 810,
+            "y": 600,
+            "label": "K14",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-218",
+            "x": -200,
+            "y": 120,
+            "label": "M1",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-219",
+            "x": -180,
+            "y": 150,
+            "label": "M2",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-220",
+            "x": -160,
+            "y": 180,
+            "label": "M3",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-221",
+            "x": -140,
+            "y": 210,
+            "label": "M4",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-222",
+            "x": -120,
+            "y": 240,
+            "label": "M5",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-223",
+            "x": -100,
+            "y": 270,
+            "label": "M6",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-224",
+            "x": -80,
+            "y": 300,
+            "label": "M7",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-225",
+            "x": -60,
+            "y": 330,
+            "label": "M8",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-226",
+            "x": -40,
+            "y": 360,
+            "label": "M9",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-227",
+            "x": -20,
+            "y": 390,
+            "label": "M10",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-228",
+            "x": 0,
+            "y": 420,
+            "label": "M11",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-229",
+            "x": 20,
+            "y": 450,
+            "label": "M12",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-230",
+            "x": 40,
+            "y": 480,
+            "label": "M13",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-231",
+            "x": 60,
+            "y": 510,
+            "label": "M14",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-232",
+            "x": 80,
+            "y": 540,
+            "label": "M15",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-233",
+            "x": -200,
+            "y": 240,
+            "label": "Q1",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-234",
+            "x": -180,
+            "y": 270,
+            "label": "Q2",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-235",
+            "x": -160,
+            "y": 300,
+            "label": "Q3",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-236",
+            "x": -140,
+            "y": 330,
+            "label": "Q4",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-237",
+            "x": -120,
+            "y": 360,
+            "label": "Q5",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-238",
+            "x": -100,
+            "y": 390,
+            "label": "Q6",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-239",
+            "x": -80,
+            "y": 420,
+            "label": "Q7",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-240",
+            "x": -60,
+            "y": 450,
+            "label": "Q8",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-241",
+            "x": -40,
+            "y": 480,
+            "label": "Q9",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-242",
+            "x": -20,
+            "y": 510,
+            "label": "Q10",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-243",
+            "x": 0,
+            "y": 540,
+            "label": "Q11",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-244",
+            "x": 20,
+            "y": 570,
+            "label": "Q12",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-245",
+            "x": 40,
+            "y": 600,
+            "label": "Q13",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-246",
+            "x": 60,
+            "y": 630,
+            "label": "Q14",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-247",
+            "x": 80,
+            "y": 660,
+            "label": "Q15",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-248",
+            "x": 100,
+            "y": 690,
+            "label": "Q16",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-249",
+            "x": -200,
+            "y": 360,
+            "label": "R1",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-250",
+            "x": -180,
+            "y": 390,
+            "label": "R2",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-251",
+            "x": -160,
+            "y": 420,
+            "label": "R3",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-252",
+            "x": -140,
+            "y": 450,
+            "label": "R4",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-253",
+            "x": -120,
+            "y": 480,
+            "label": "R5",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-254",
+            "x": -100,
+            "y": 510,
+            "label": "R6",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-255",
+            "x": -80,
+            "y": 540,
+            "label": "R7",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-256",
+            "x": -60,
+            "y": 570,
+            "label": "R8",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-257",
+            "x": -40,
+            "y": 600,
+            "label": "R9",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-258",
+            "x": -20,
+            "y": 630,
+            "label": "R10",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-259",
+            "x": 0,
+            "y": 660,
+            "label": "R11",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-260",
+            "x": 20,
+            "y": 690,
+            "label": "R12",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-261",
+            "x": 40,
+            "y": 720,
+            "label": "R13",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-262",
+            "x": 60,
+            "y": 750,
+            "label": "R14",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-263",
+            "x": 80,
+            "y": 780,
+            "label": "R15",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-264",
+            "x": 100,
+            "y": 810,
+            "label": "R16",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-265",
+            "x": 1200,
+            "y": 120,
+            "label": "N1",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-266",
+            "x": 1180,
+            "y": 150,
+            "label": "N2",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-267",
+            "x": 1160,
+            "y": 180,
+            "label": "N3",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-268",
+            "x": 1140,
+            "y": 210,
+            "label": "N4",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-269",
+            "x": 1120,
+            "y": 240,
+            "label": "N5",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-270",
+            "x": 1100,
+            "y": 270,
+            "label": "N6",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-271",
+            "x": 1080,
+            "y": 300,
+            "label": "N7",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-272",
+            "x": 1060,
+            "y": 330,
+            "label": "N8",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-273",
+            "x": 1040,
+            "y": 360,
+            "label": "N9",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-274",
+            "x": 1020,
+            "y": 390,
+            "label": "N10",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-275",
+            "x": 1000,
+            "y": 420,
+            "label": "N11",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-276",
+            "x": 980,
+            "y": 450,
+            "label": "N12",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-277",
+            "x": 960,
+            "y": 480,
+            "label": "N13",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-278",
+            "x": 940,
+            "y": 510,
+            "label": "N14",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-279",
+            "x": 920,
+            "y": 540,
+            "label": "N15",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-280",
+            "x": 1200,
+            "y": 240,
+            "label": "P1",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-281",
+            "x": 1180,
+            "y": 270,
+            "label": "P2",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-282",
+            "x": 1160,
+            "y": 300,
+            "label": "P3",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-283",
+            "x": 1140,
+            "y": 330,
+            "label": "P4",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-284",
+            "x": 1120,
+            "y": 360,
+            "label": "P5",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-285",
+            "x": 1100,
+            "y": 390,
+            "label": "P6",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-286",
+            "x": 1080,
+            "y": 420,
+            "label": "P7",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-287",
+            "x": 1060,
+            "y": 450,
+            "label": "P8",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-288",
+            "x": 1040,
+            "y": 480,
+            "label": "P9",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-289",
+            "x": 1020,
+            "y": 510,
+            "label": "P10",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-290",
+            "x": 1000,
+            "y": 540,
+            "label": "P11",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-291",
+            "x": 980,
+            "y": 570,
+            "label": "P12",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-292",
+            "x": 960,
+            "y": 600,
+            "label": "P13",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-293",
+            "x": 940,
+            "y": 630,
+            "label": "P14",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-294",
+            "x": 920,
+            "y": 660,
+            "label": "P15",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-295",
+            "x": 900,
+            "y": 690,
+            "label": "P16",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-296",
+            "x": 1200,
+            "y": 360,
+            "label": "T1",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-297",
+            "x": 1180,
+            "y": 390,
+            "label": "T2",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-298",
+            "x": 1160,
+            "y": 420,
+            "label": "T3",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-299",
+            "x": 1140,
+            "y": 450,
+            "label": "T4",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-300",
+            "x": 1120,
+            "y": 480,
+            "label": "T5",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-301",
+            "x": 1100,
+            "y": 510,
+            "label": "T6",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-302",
+            "x": 1080,
+            "y": 540,
+            "label": "T7",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-303",
+            "x": 1060,
+            "y": 570,
+            "label": "T8",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-304",
+            "x": 1040,
+            "y": 600,
+            "label": "T9",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-305",
+            "x": 1020,
+            "y": 630,
+            "label": "T10",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-306",
+            "x": 1000,
+            "y": 660,
+            "label": "T11",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-307",
+            "x": 980,
+            "y": 690,
+            "label": "T12",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-308",
+            "x": 960,
+            "y": 720,
+            "label": "T13",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-309",
+            "x": 940,
+            "y": 750,
+            "label": "T14",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-310",
+            "x": 920,
+            "y": 780,
+            "label": "T15",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-311",
+            "x": 900,
+            "y": 810,
+            "label": "T16",
+            "status": "Available",
+            "category": "6267c38d-e1ee-433a-9bda-8be0cab0b062",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-312",
+            "x": 248,
+            "y": 680,
+            "label": "L1",
+            "status": "Available",
+            "category": "fe1a1eb0-1f30-4014-ae49-ee8438b720a3",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-313",
+            "x": 288,
+            "y": 680,
+            "label": "L2",
+            "status": "Available",
+            "category": "fe1a1eb0-1f30-4014-ae49-ee8438b720a3",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-314",
+            "x": 328,
+            "y": 680,
+            "label": "L3",
+            "status": "Available",
+            "category": "fe1a1eb0-1f30-4014-ae49-ee8438b720a3",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-315",
+            "x": 368,
+            "y": 680,
+            "label": "L4",
+            "status": "Available",
+            "category": "fe1a1eb0-1f30-4014-ae49-ee8438b720a3",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-316",
+            "x": 428,
+            "y": 680,
+            "label": "L5",
+            "status": "Available",
+            "category": "fe1a1eb0-1f30-4014-ae49-ee8438b720a3",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-317",
+            "x": 468,
+            "y": 680,
+            "label": "L6",
+            "status": "Available",
+            "category": "fe1a1eb0-1f30-4014-ae49-ee8438b720a3",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-318",
+            "x": 508,
+            "y": 680,
+            "label": "L7",
+            "status": "Available",
+            "category": "fe1a1eb0-1f30-4014-ae49-ee8438b720a3",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-319",
+            "x": 548,
+            "y": 680,
+            "label": "L8",
+            "status": "Available",
+            "category": "fe1a1eb0-1f30-4014-ae49-ee8438b720a3",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-320",
+            "x": 588,
+            "y": 680,
+            "label": "L9",
+            "status": "Available",
+            "category": "fe1a1eb0-1f30-4014-ae49-ee8438b720a3",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-321",
+            "x": 628,
+            "y": 680,
+            "label": "L10",
+            "status": "Available",
+            "category": "fe1a1eb0-1f30-4014-ae49-ee8438b720a3",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-322",
+            "x": 688,
+            "y": 680,
+            "label": "L11",
+            "status": "Available",
+            "category": "fe1a1eb0-1f30-4014-ae49-ee8438b720a3",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-323",
+            "x": 728,
+            "y": 680,
+            "label": "L12",
+            "status": "Available",
+            "category": "fe1a1eb0-1f30-4014-ae49-ee8438b720a3",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-324",
+            "x": 768,
+            "y": 680,
+            "label": "L13",
+            "status": "Available",
+            "category": "fe1a1eb0-1f30-4014-ae49-ee8438b720a3",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-325",
+            "x": 808,
+            "y": 680,
+            "label": "L14",
+            "status": "Available",
+            "category": "fe1a1eb0-1f30-4014-ae49-ee8438b720a3",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-326",
+            "x": 248,
+            "y": 720,
+            "label": "O1",
+            "status": "Available",
+            "category": "fe1a1eb0-1f30-4014-ae49-ee8438b720a3",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-327",
+            "x": 288,
+            "y": 720,
+            "label": "O2",
+            "status": "Available",
+            "category": "fe1a1eb0-1f30-4014-ae49-ee8438b720a3",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-328",
+            "x": 328,
+            "y": 720,
+            "label": "O3",
+            "status": "Available",
+            "category": "fe1a1eb0-1f30-4014-ae49-ee8438b720a3",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-329",
+            "x": 368,
+            "y": 720,
+            "label": "O4",
+            "status": "Available",
+            "category": "fe1a1eb0-1f30-4014-ae49-ee8438b720a3",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-330",
+            "x": 428,
+            "y": 720,
+            "label": "O5",
+            "status": "Available",
+            "category": "fe1a1eb0-1f30-4014-ae49-ee8438b720a3",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-331",
+            "x": 468,
+            "y": 720,
+            "label": "O6",
+            "status": "Available",
+            "category": "fe1a1eb0-1f30-4014-ae49-ee8438b720a3",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-332",
+            "x": 508,
+            "y": 720,
+            "label": "O7",
+            "status": "Available",
+            "category": "fe1a1eb0-1f30-4014-ae49-ee8438b720a3",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-333",
+            "x": 548,
+            "y": 720,
+            "label": "O8",
+            "status": "Available",
+            "category": "fe1a1eb0-1f30-4014-ae49-ee8438b720a3",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-334",
+            "x": 588,
+            "y": 720,
+            "label": "O9",
+            "status": "Available",
+            "category": "fe1a1eb0-1f30-4014-ae49-ee8438b720a3",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-335",
+            "x": 628,
+            "y": 720,
+            "label": "O10",
+            "status": "Available",
+            "category": "fe1a1eb0-1f30-4014-ae49-ee8438b720a3",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-336",
+            "x": 688,
+            "y": 720,
+            "label": "O11",
+            "status": "Available",
+            "category": "fe1a1eb0-1f30-4014-ae49-ee8438b720a3",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-337",
+            "x": 728,
+            "y": 720,
+            "label": "O12",
+            "status": "Available",
+            "category": "fe1a1eb0-1f30-4014-ae49-ee8438b720a3",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-338",
+            "x": 768,
+            "y": 720,
+            "label": "O13",
+            "status": "Available",
+            "category": "fe1a1eb0-1f30-4014-ae49-ee8438b720a3",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-339",
+            "x": 808,
+            "y": 720,
+            "label": "O14",
+            "status": "Available",
+            "category": "fe1a1eb0-1f30-4014-ae49-ee8438b720a3",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-340",
+            "x": 248,
+            "y": 760,
+            "label": "S1",
+            "status": "Available",
+            "category": "fe1a1eb0-1f30-4014-ae49-ee8438b720a3",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-341",
+            "x": 288,
+            "y": 760,
+            "label": "S2",
+            "status": "Available",
+            "category": "fe1a1eb0-1f30-4014-ae49-ee8438b720a3",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-342",
+            "x": 328,
+            "y": 760,
+            "label": "S3",
+            "status": "Available",
+            "category": "fe1a1eb0-1f30-4014-ae49-ee8438b720a3",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-343",
+            "x": 368,
+            "y": 760,
+            "label": "S4",
+            "status": "Available",
+            "category": "fe1a1eb0-1f30-4014-ae49-ee8438b720a3",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-344",
+            "x": 428,
+            "y": 760,
+            "label": "S5",
+            "status": "Available",
+            "category": "fe1a1eb0-1f30-4014-ae49-ee8438b720a3",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-345",
+            "x": 468,
+            "y": 760,
+            "label": "S6",
+            "status": "Available",
+            "category": "fe1a1eb0-1f30-4014-ae49-ee8438b720a3",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-346",
+            "x": 508,
+            "y": 760,
+            "label": "S7",
+            "status": "Available",
+            "category": "fe1a1eb0-1f30-4014-ae49-ee8438b720a3",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-347",
+            "x": 548,
+            "y": 760,
+            "label": "S8",
+            "status": "Available",
+            "category": "fe1a1eb0-1f30-4014-ae49-ee8438b720a3",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-348",
+            "x": 588,
+            "y": 760,
+            "label": "S9",
+            "status": "Available",
+            "category": "fe1a1eb0-1f30-4014-ae49-ee8438b720a3",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-349",
+            "x": 628,
+            "y": 760,
+            "label": "S10",
+            "status": "Available",
+            "category": "fe1a1eb0-1f30-4014-ae49-ee8438b720a3",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-350",
+            "x": 688,
+            "y": 760,
+            "label": "S11",
+            "status": "Available",
+            "category": "fe1a1eb0-1f30-4014-ae49-ee8438b720a3",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-351",
+            "x": 728,
+            "y": 760,
+            "label": "S12",
+            "status": "Available",
+            "category": "fe1a1eb0-1f30-4014-ae49-ee8438b720a3",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-352",
+            "x": 768,
+            "y": 760,
+            "label": "S13",
+            "status": "Available",
+            "category": "fe1a1eb0-1f30-4014-ae49-ee8438b720a3",
+            "square": true,
+            "rotation": 0
+        },
+        {
+            "id": "seat-353",
+            "x": 808,
+            "y": 760,
+            "label": "S14",
+            "status": "Available",
+            "category": "fe1a1eb0-1f30-4014-ae49-ee8438b720a3",
+            "square": true,
+            "rotation": 0
+        }
+    ],
+    "text": [
+        {
+            "id": "116a57ac-9bc2-4f0c-a9fc-e1a57448bda7",
+            "x": 481.1094970703125,
+            "y": 93.39669311523437,
+            "label": "STAGE",
+            "fontSize": 35,
+            "fontWeight": 200,
+            "letterSpacing": 5,
+            "color": "#ffffff",
+            "embraceOffset": false,
+            "rotation": 0
+        },
+        {
+            "id": "5fbe906b-3f2b-4537-9dec-f0d29f10c8a8",
+            "x": 528.3535459175631,
+            "y": 224.05520045184514,
+            "label": "A",
+            "fontSize": 35,
+            "fontWeight": 200,
+            "letterSpacing": 3,
+            "color": "#000000",
+            "embraceOffset": false,
+            "rotation": 0
+        },
+        {
+            "id": "345f6da8-0679-46f7-8826-66a3c03888fc",
+            "x": 528.3535459175631,
+            "y": 267.460260276369,
+            "label": "B",
+            "fontSize": 35,
+            "fontWeight": 200,
+            "letterSpacing": 3,
+            "color": "#000000",
+            "embraceOffset": false,
+            "rotation": 0
+        },
+        {
+            "id": "aabd4361-106b-4b44-9125-4d99c831dfc7",
+            "x": 528.3535459175631,
+            "y": 306.3751414983559,
+            "label": "C",
+            "fontSize": 35,
+            "fontWeight": 200,
+            "letterSpacing": 3,
+            "color": "#000000",
+            "embraceOffset": false,
+            "rotation": 0
+        },
+        {
+            "id": "c7460dc4-2fe6-4d94-b083-244128806afb",
+            "x": 528.3535459175631,
+            "y": 345.29002272034285,
+            "label": "D",
+            "fontSize": 35,
+            "fontWeight": 200,
+            "letterSpacing": 3,
+            "color": "#000000",
+            "embraceOffset": false,
+            "rotation": 0
+        },
+        {
+            "id": "d1e10ba1-7d1d-486a-bc43-b9eca7dc272e",
+            "x": 528.3535459175631,
+            "y": 386.4499932435982,
+            "label": "E",
+            "fontSize": 35,
+            "fontWeight": 200,
+            "letterSpacing": 3,
+            "color": "#000000",
+            "embraceOffset": false,
+            "rotation": 0
+        },
+        {
+            "id": "be3acc20-f4dc-4546-8fc5-080b593b146e",
+            "x": 528.3535459175631,
+            "y": 425.3648744655852,
+            "label": "F",
+            "fontSize": 35,
+            "fontWeight": 200,
+            "letterSpacing": 3,
+            "color": "#000000",
+            "embraceOffset": false,
+            "rotation": 0
+        },
+        {
+            "id": "7d152956-7c75-4e9c-bdf5-ec504c79e82a",
+            "x": 528.3535459175631,
+            "y": 467.27320808926345,
+            "label": "G",
+            "fontSize": 35,
+            "fontWeight": 200,
+            "letterSpacing": 3,
+            "color": "#000000",
+            "embraceOffset": false,
+            "rotation": 0
+        },
+        {
+            "id": "c84c6f4b-a8a0-4df8-a872-912bc72e7081",
+            "x": 528.3535459175631,
+            "y": 506.18808931125034,
+            "label": "H",
+            "fontSize": 35,
+            "fontWeight": 200,
+            "letterSpacing": 3,
+            "color": "#000000",
+            "embraceOffset": false,
+            "rotation": 0
+        },
+        {
+            "id": "adb97ee0-9d84-4b33-b349-b7241b767c10",
+            "x": 528.3535459175631,
+            "y": 546.599696734083,
+            "label": "I",
+            "fontSize": 35,
+            "fontWeight": 200,
+            "letterSpacing": 3,
+            "color": "#000000",
+            "embraceOffset": false,
+            "rotation": 0
+        },
+        {
+            "id": "5bc66365-4e61-4285-8994-1d995913f666",
+            "x": 528.3535459175631,
+            "y": 586.2629410564927,
+            "label": "J",
+            "fontSize": 35,
+            "fontWeight": 200,
+            "letterSpacing": 3,
+            "color": "#000000",
+            "embraceOffset": false,
+            "rotation": 0
+        },
+        {
+            "id": "5dd4c2e3-25fd-47b9-8940-811b0c670a34",
+            "x": 528.3535459175631,
+            "y": 626.6745484793253,
+            "label": "K",
+            "fontSize": 35,
+            "fontWeight": 200,
+            "letterSpacing": 3,
+            "color": "#000000",
+            "embraceOffset": false,
+            "rotation": 0
+        }
+    ],
+    "shapes": [
+        {
+            "id": "60a1c8d8-efd1-4506-a5a8-59ef16571836",
+            "name": "RectangleHorizontal",
+            "x": -23.00061798095703,
+            "y": 33.35831665039062,
+            "width": 1100,
+            "height": 100,
+            "rx": 10,
+            "color": "#000000",
+            "stroke": "#000000",
+            "rotation": 0
+        }
+    ],
+    "polylines": [],
+    "images": [],
+    "workspace": {
+        "initialViewBoxScale": 0.605909115101895,
+        "initialViewBoxScaleForWidth": 1386,
+        "visibilityOffset": 0
+    }
+}
