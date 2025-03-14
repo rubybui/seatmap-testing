@@ -249,7 +249,7 @@ row_specs = {
         "right":  {"parity": "even", "start": 18, "end": 24, "direction": "asc"}
     },
     "P": {
-        "left":   {"parity": "odd",  "start": 17, "end": 23, "direction": "asc"},
+        "left":   {"parity": "odd",  "start": 17, "end": 21, "direction": "asc"},
         "center": {"parity": "all",  "start":  1, "end": 17, "direction": "desc"},
         "right":  {"parity": "even", "start": 18, "end": 22, "direction": "asc"}
     },
@@ -257,11 +257,6 @@ row_specs = {
         "left":   {"parity": "odd",  "start": 13, "end": 17, "direction": "asc"},
         "center": {"parity": "all",  "start":  1, "end": 12, "direction": "desc"},
         "right":  {"parity": "even", "start": 14, "end": 18, "direction": "asc"}
-    },
-    "R": {
-        "left":   {"parity": "odd",  "start": 17, "end": 37, "direction": "asc"},
-        "center": {"parity": "all",  "start":  1, "end": 15, "direction": "desc"},
-        "right":  {"parity": "even", "start": 16, "end": 36, "direction": "asc"}
     },
     "S": {
         "left":   {"parity": "odd",  "start": 17, "end": 37, "direction": "asc"},
