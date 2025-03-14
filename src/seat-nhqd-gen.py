@@ -1,4 +1,5 @@
 import json
+from collections import defaultdict
 
 # --------------------------------------------
 # 1) Helper: seat numbering + alignment
@@ -141,14 +142,14 @@ def get_zone(row, num):
                 return "zone1"
             elif 17 <= num <= 20:
                 return "zone2"
-            elif 21 <= num <= 27:
+            elif 21 <= num <= 28:
                 return "zone3"
             else:
                 return "zone4"
     if row in ["K", "L"]:
         if 1 <= num <= 20:
             return "zone2"
-        elif 21 <= num <= 27:
+        elif 21 <= num <= 28:
             return "zone3"
         else:
             return "zone4"
@@ -253,9 +254,9 @@ row_specs = {
         "center": {"parity": "all",  "start":  1, "end": 17, "direction": "desc"},
         "right":  {"parity": "even", "start": 18, "end": 22, "direction": "asc"}
     },
+    # Row Q: no center block; only left and right blocks are defined.
     "Q": {
         "left":   {"parity": "odd",  "start": 13, "end": 17, "direction": "asc"},
-        "center": {"parity": "all",  "start":  1, "end": 12, "direction": "desc"},
         "right":  {"parity": "even", "start": 14, "end": 18, "direction": "asc"}
     },
     "S": {
@@ -274,9 +275,9 @@ row_specs = {
         "right":  {"parity": "even", "start": 18, "end": 40, "direction": "asc"}
     },
     "V": {
-        "left":   {"parity": "odd",  "start": 19, "end": 39, "direction": "asc"},
+        "left":   {"parity": "odd",  "start": 19, "end": 35, "direction": "asc"},
         "center": {"parity": "all",  "start":  1, "end": 17, "direction": "desc"},
-        "right":  {"parity": "even", "start": 18, "end": 38, "direction": "asc"}
+        "right":  {"parity": "even", "start": 18, "end": 36, "direction": "asc"}
     },
     "X": {
         "left":   {"parity": "odd",  "start": 19, "end": 21, "direction": "asc"},
@@ -323,7 +324,7 @@ text_data.append({
     "rotation": 0
 })
 
-# Ordered rows (you can sort or keep the dictionary order)
+# Ordered rows (using the dictionary order)
 ordered_rows = list(row_specs.keys())
 seat_id = 1
 current_row_index = 0
@@ -333,24 +334,28 @@ for row_letter in ordered_rows:
     y_pos = BASE_Y + (current_row_index * ROW_SPACING_Y) + extra_vertical_offset
     
     # 1) Generate seat numbers for left, center, right blocks
-    spec_left   = row_specs[row_letter]["left"]
-    spec_center = row_specs[row_letter]["center"]
-    spec_right  = row_specs[row_letter]["right"]
+    spec_left = row_specs[row_letter]["left"]
+    spec_center = row_specs[row_letter].get("center")  # may be None (e.g. for row Q)
+    spec_right = row_specs[row_letter]["right"]
     
-    left_nums   = generate_numbers(spec_left["parity"], spec_left["start"], spec_left["end"], spec_left["direction"])
-    center_nums = generate_numbers(spec_center["parity"], spec_center["start"], spec_center["end"], spec_center["direction"])
-    right_nums  = generate_numbers(spec_right["parity"], spec_right["start"], spec_right["end"], spec_right["direction"])
+    left_nums = generate_numbers(spec_left["parity"], spec_left["start"], spec_left["end"], spec_left["direction"])
+    if spec_center is not None:
+        center_nums = generate_numbers(spec_center["parity"], spec_center["start"], spec_center["end"], spec_center["direction"])
+    else:
+        center_nums = []  # For row Q, no center seats.
+    right_nums = generate_numbers(spec_right["parity"], spec_right["start"], spec_right["end"], spec_right["direction"])
     
     # 2) Place them with alignment
-    left_coords   = place_seats_right_aligned(left_nums, LEFT_BLOCK_ANCHOR_X, SEAT_SPACING_X)
+    left_coords = place_seats_right_aligned(left_nums, LEFT_BLOCK_ANCHOR_X, SEAT_SPACING_X)
     center_coords = place_seats_center_aligned(center_nums, CENTER_BLOCK_ANCHOR_X, SEAT_SPACING_X)
-    right_coords  = place_seats_left_aligned(right_nums, RIGHT_BLOCK_ANCHOR_X, SEAT_SPACING_X)
+    right_coords = place_seats_left_aligned(right_nums, RIGHT_BLOCK_ANCHOR_X, SEAT_SPACING_X)
     
-    # 3) Create seat objects with the category set to the zone.
+    # 3) Create seat objects with a "block" property.
     for seat_num, x_pos in left_coords:
         zone = get_zone(row_letter, seat_num)
         seat_data.append({
             "id": f"seat-{seat_id}",
+            "block": "left",
             "x": x_pos,
             "y": y_pos,
             "label": f"{row_letter}{seat_num}",
@@ -364,6 +369,7 @@ for row_letter in ordered_rows:
         zone = get_zone(row_letter, seat_num)
         seat_data.append({
             "id": f"seat-{seat_id}",
+            "block": "center",
             "x": x_pos,
             "y": y_pos,
             "label": f"{row_letter}{seat_num}",
@@ -377,6 +383,7 @@ for row_letter in ordered_rows:
         zone = get_zone(row_letter, seat_num)
         seat_data.append({
             "id": f"seat-{seat_id}",
+            "block": "right",
             "x": x_pos,
             "y": y_pos,
             "label": f"{row_letter}{seat_num}",
@@ -386,7 +393,7 @@ for row_letter in ordered_rows:
         })
         seat_id += 1
     
-    # 4) Create text objects for row labels (between left-center and center-right blocks)
+    # 4) Create text objects for row labels (placed between the blocks)
     mid_left_center = (LEFT_BLOCK_ANCHOR_X + CENTER_BLOCK_ANCHOR_X) / 2 - 100
     mid_center_right = (CENTER_BLOCK_ANCHOR_X + RIGHT_BLOCK_ANCHOR_X) / 2 + 100
     
@@ -461,3 +468,50 @@ with open("texts.json", "w") as f:
     json.dump(text_data, f, indent=4)
 
 print("Done! Generated seats.json for seat data and texts.json for text objects.")
+
+# --------------------------------------------
+# 6) Print summary counts
+# --------------------------------------------
+# Summary by block (left, center, right)
+row_block_counts = defaultdict(lambda: {"left": 0, "center": 0, "right": 0})
+overall_block_counts = {"left": 0, "center": 0, "right": 0}
+
+# Summary by category (zone)
+row_category_counts = defaultdict(lambda: defaultdict(int))
+overall_category_counts = defaultdict(int)
+
+for seat in seat_data:
+    # Extract row letter from label (e.g., "A15" -> "A")
+    row_letter = seat["label"][0]
+    block = seat["block"]
+    category = seat["category"]
+    
+    row_block_counts[row_letter][block] += 1
+    overall_block_counts[block] += 1
+    
+    row_category_counts[row_letter][category] += 1
+    overall_category_counts[category] += 1
+
+# Print block counts per row
+print("\nSeat counts per row and block (with row totals):")
+for row in sorted(row_block_counts.keys()):
+    row_total = sum(row_block_counts[row].values())
+    print(f"Row {row} (Total: {row_total}):")
+    for blk in ["left", "center", "right"]:
+        print(f"  {blk}: {row_block_counts[row][blk]}")
+
+print("\nOverall block counts:")
+for blk in ["left", "center", "right"]:
+    print(f"  {blk}: {overall_block_counts[blk]}")
+
+# Print category counts per row
+print("\nSeat counts per row and category (with row totals):")
+for row in sorted(row_category_counts.keys()):
+    row_total = sum(row_category_counts[row].values())
+    print(f"Row {row} (Total: {row_total}):")
+    for cat, count in row_category_counts[row].items():
+        print(f"  {cat}: {count}")
+
+print("\nOverall category counts:")
+for cat, count in overall_category_counts.items():
+    print(f"  {cat}: {count}")
